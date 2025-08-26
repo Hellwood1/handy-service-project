@@ -4,6 +4,7 @@
 
 /* VARIABLES */
 @import url('./utils/variables.css');
+@import url('./utils/fonts.css');
 
 /* LAYOUT */
 @import url('./layout/header.css');
