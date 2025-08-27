@@ -114,6 +114,11 @@
     align-items: flex-start;
   }
 
+  .about-me-second-cirkle {
+    position: relative;
+    left: -10px;
+  }
+
   .about-me-first-number,
   .about-me-second-number {
     height: 178px;
