@@ -1,4 +1,16 @@
-{
+{ "header-nav-first-link": "Advantages",
+  "header-nav-second-link": "About Me",
+  "header-nav-third-link": "Services",
+  "header-nav-fourth-link": "Reviews",
+  "header-nav-femth-link": "Contact",
+  "header-nav-sixth-link": "Stages",
+
+  "hero-title": "Repairs made easy –  turnkey solutions with guaranteed quality and a welcome gift for new clients",
+  "hero-pre-title-text":"HandyService — your trusted personal handyman in Jutland, Denmark.",
+
+  "hero-link-btn": "Book a Handyman",
+
+
   "benefits-pretitle": "Making Home Repairs Easy and Stress-Free",
   "benefits-title": "Why Choose Handy Service",
   "benefits-title-content": "Skilled, reliable, and dedicated — I take pride in delivering high-quality repairs and improvements that last. Your home deserves the best, and I’m here to make sure every detail is handled with care.",
@@ -39,7 +51,7 @@
 
   "testimonials-fourth-card-quote":"\"Mikhail replaced old switches and installed new ceiling lights in our living room. He worked neatly and explained everything he was doing. Very trustworthy.\"",
   "testimonials-fourth-card-name": "Elena",
-  "testimonials-fourth-card-city": "Odense",
+  "testimonials-fourth-card-city": "Tarm",
 
   "testimonials-fifth-card-quote":"\"Mikhail transformed our attic into a cozy guest room, installing plasterboard walls and ceiling. Everything was done with precision, and the finish is perfect. It feels like a completely new space now.\"",
   "testimonials-fifth-card-name": "Peter",

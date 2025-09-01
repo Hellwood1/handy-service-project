@@ -1,0 +1,144 @@
+.hero-section-container {
+  position: relative;
+  top: -156px;
+
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.hero-section-text-wrapper {
+  margin-top: 210px;
+}
+
+.hero-title {
+  color: var(--white);
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  margin-bottom: 18px;
+}
+
+.hero-pre-title-text {
+  color: var(--white);
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 70px;
+}
+
+.hero-social-media-list {
+  display: none;
+}
+
+.hero-link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+  max-width: 216px;
+  margin: 0 auto;
+  color: var(--white);
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  border: none;
+  padding: 15px 22px;
+  border-radius: 32px;
+  background-color: var(--black);
+}
+
+.hero-link-btn:hover .hero-link-svg {
+  animation: bounce-up-down 0.8s ease forwards;
+}
+
+@keyframes bounce-up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-bg {
+    height: 130vh;
+  }
+
+  .hero-title {
+    font-size: 46px;
+    line-height: 1.2;
+    max-width: 590px;
+    margin-bottom: 24px;
+  }
+
+  .hero-pre-title-text {
+    font-size: 24px;
+    line-height: 1.9;
+  }
+
+  .hero-social-media-list {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    justify-content: center;
+  }
+
+  .hero-section-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 300px;
+  }
+
+  .hero-social-media-list {
+    flex-direction: column;
+    margin-bottom: 34px;
+  }
+
+  .social-media-hero-svg {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+/* ================================= DESKTOP ================================= */
+@media screen and (min-width: 1440px) {
+  .hero-section-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 280px;
+  }
+
+  .hero-title {
+    max-width: 810px;
+  }
+
+  .hero-bg {
+    height: 115%;
+  }
+
+  .hero-link-btn {
+    margin-left: 120px;
+  }
+
+  .hero-social-media-list {
+    row-gap: 24px;
+    margin-bottom: 80px;
+  }
+}

@@ -1,4 +1,15 @@
 {
+ "header-nav-first-link": "Fordele",
+ "header-nav-second-link": "Om mig",
+ "header-nav-third-link": "Ydelser",
+ "header-nav-fourth-link": "Anmeldelser",
+ "header-nav-femth-link": "Kontakt",
+ "header-nav-sixth-link": "Behandle",
+
+ "hero-title":"Reparation gjort nemt – totalløsninger med garanti for kvalitet og en velkomstgave til nye kunder",
+ "hero-pre-title-text":"HandyService — din pålidelige, personlige håndværker i Jylland, Danmark.",
+ "hero-link-btn": "Book en håndværker",
+
   "benefits-pretitle": "Gør boligreparationer nemme og uden stress",
   "benefits-title": "Hvorfor vælge Handy Service",
   "benefits-title-content": "Dygtig, pålidelig og engageret — jeg lægger vægt på at levere reparationer og forbedringer af høj kvalitet, der holder. Dit hjem fortjener det bedste, og jeg sørger for, at alle detaljer bliver taget hånd om med omhu.",
@@ -39,7 +50,7 @@
 
   "testimonials-fourth-card-quote":"\"Mikhail udskiftede gamle kontakter og installerede nye loftslamper i vores stue. Han arbejdede pænt og forklarede alt undervejs. Meget tillidsvækkende.\"",
   "testimonials-fourth-card-name": "Elena",
-  "testimonials-fourth-card-city": "Odense",
+  "testimonials-fourth-card-city": "Tarm",
 
   "testimonials-fifth-card-quote":"\"Mikhail forvandlede vores loft til et hyggeligt gæsteværelse ved at sætte gipsvægge og loft op. Alt blev udført præcist, og finishen er perfekt. Det føles som et helt nyt rum nu.\"",
   "testimonials-fifth-card-name": "Peter",
