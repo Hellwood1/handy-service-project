@@ -1,0 +1,132 @@
+.approach-section {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background: var(--gb-white);
+}
+.approach-section-first-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.approach-pretitle {
+  color: var(--nordic-blue);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 16.8px */
+  text-transform: uppercase;
+}
+.approach-title {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 39.6px */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.approach-title-content {
+  color: var(--gray);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
+}
+
+.approach-images {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.approach-card-img-wrapper {
+  width: 119px;
+  height: 119px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: -10px;
+  position: relative;
+}
+
+.approach-card-img-wrapper:nth-child(1) {
+  z-index: 1;
+}
+.approach-card-img-wrapper:nth-child(2) {
+  z-index: 2;
+}
+.approach-card-img-wrapper:nth-child(3) {
+  z-index: 3;
+}
+
+.approach-card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.approach-text-content {
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.approach-text-title {
+  font-weight: 600;
+}
+.approach-text-content-list {
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.approach-text-content-bottom {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .approach-section {
+    padding-top: 80px;
+  }
+
+  .approach-title {
+    font-size: 52px;
+    letter-spacing: -1.04px;
+  }
+
+  .approach-title-content {
+    font-size: 16px;
+  }
+  .approach-card-img-wrapper {
+    width: 242px;
+    height: 242px;
+  }
+  .approach-images {
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .approach-section-desk {
+    display: flex;
+    gap: 139px;
+    justify-content: center;
+  }
+  .approach-section-first-part {
+    width: 329px;
+  }
+  .approach-section-second-part {
+    width: 678px;
+  }
+  .approach-text-content-bottom {
+    margin-bottom: 0px;
+  }
+}

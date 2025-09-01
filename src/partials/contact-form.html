@@ -1,1 +1,124 @@
-<section><div class="container"></div></section>
+<section class="contact-form-section">
+  <div class="container contact-form-desk-pos">
+    <div class="contact-form-black-part">
+      <div class="contact-form-section-first-part">
+        <p class="contact-form-pretitle" data-i18n="contact-form-pretitle"></p>
+        <h2 class="contact-form-title" data-i18n="contact-form-title"></h2>
+        <p
+          class="contact-form-title-content"
+          data-i18n="contact-form-title-content"
+        ></p>
+      </div>
+      <ul class="contact-form-list">
+        <li class="contact-form-list-item line-position">
+          <div class="contact-form-list-item-svg">
+            <svg aria-hidden="true" focusable="false">
+              <use href="./img/sprite.svg#icon-phone-new"></use>
+            </svg>
+          </div>
+          <div class="contact-form-info-pos">
+            <p
+              data-i18n="contact-form-call-me"
+              class="contact-form-infoname"
+            ></p>
+            <p class="contact-form-info">+45 50 21 32 33</p>
+          </div>
+        </li>
+        <li class="contact-form-list-item line-position">
+          <div class="contact-form-list-item-svg">
+            <svg aria-hidden="true" focusable="false">
+              <use href="./img/sprite.svg#icon-time-new"></use>
+            </svg>
+          </div>
+          <div class="contact-form-info-pos">
+            <p
+              data-i18n="contact-form-work-hours"
+              class="contact-form-infoname"
+            ></p>
+            <p class="contact-form-info">8:00 AM – 8:00 PM</p>
+          </div>
+        </li>
+        <li class="contact-form-list-item line-position">
+          <div class="contact-form-list-item-svg">
+            <svg aria-hidden="true" focusable="false">
+              <use href="./img/sprite.svg#icon-mail-new"></use>
+            </svg>
+          </div>
+          <div class="contact-form-info-pos">
+            <p class="contact-form-infoname">Email</p>
+            <p class="contact-form-info">kms_2014@ukr.net</p>
+          </div>
+        </li>
+        <li class="contact-form-list-item">
+          <div class="contact-form-list-item-svg">
+            <svg aria-hidden="true" focusable="false">
+              <use href="./img/sprite.svg#icon-map-new"></use>
+            </svg>
+          </div>
+          <div class="contact-form-info-pos">
+            <p
+              data-i18n="contact-form-office"
+              class="contact-form-infoname"
+            ></p>
+            <p class="contact-form-info">Møllegade 23, 6862 Tistrup</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="contact-form-blue-part">
+      <h3
+        data-i18n="contact-form-form-title"
+        class="contact-form-form-title"
+      ></h3>
+      <form id="contactForm" class="contactForm">
+        <input class="contactForm-input" type="text" id="name" required />
+        <input
+          class="contactForm-input"
+          pattern="[0-9]+"
+          type="tel"
+          id="phone"
+          required
+        />
+        <textarea
+          class="contactForm-input"
+          id="comment"
+          rows="4"
+          required
+        ></textarea>
+        <button class="contactForm-btn" type="submit" id="submitBtn">
+          <p data-i18n="contact-form-submit-btn"></p>
+          <div class="contact-form-btn-svg">
+            <svg aria-hidden="true" focusable="false">
+              <use href="./img/sprite.svg#icon-foam-roller"></use>
+            </svg>
+          </div>
+        </button>
+      </form>
+    </div>
+    <div id="formThankYou" class="form-thank-you">
+      <div class="thanks-svg">
+        <svg aria-hidden="true" focusable="false">
+          <use href="./img/sprite.svg#icon-logo-new"></use>
+        </svg>
+      </div>
+      <h3
+        data-i18n="contact-form-cover-title"
+        class="contact-form-cover-title"
+      ></h3>
+      <p
+        data-i18n="contact-form-cover-massege"
+        class="contact-form-cover-massege"
+      ></p>
+      <button
+        id="closeThankYou"
+        data-i18n="contact-form-cover-btn"
+        class="contact-form-cover-btn"
+      ></button>
+      <button class="btn-cross-close" id="closeThankYou2">
+        <svg aria-hidden="true" focusable="false">
+          <use href="./img/sprite.svg#icon-cross"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>

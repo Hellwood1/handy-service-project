@@ -1,0 +1,205 @@
+.services-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--gb-white);
+}
+.services-section-first-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services-pretitle {
+  color: var(--nordic-blue);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 16.8px */
+  text-transform: uppercase;
+}
+.services-title {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 39.6px */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.services-title-content {
+  color: var(--gray);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
+  margin-bottom: 40px;
+}
+.services-cards-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 55px;
+}
+.services-btn {
+  color: var(--black);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 24px */
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid var(--black);
+}
+.services-btn:hover,
+.services-btn:focus {
+  background: var(--black);
+  color: var(--white);
+}
+.services-btn.active {
+  background: var(--black);
+  color: var(--white);
+}
+
+.services-cards {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.services-cards.active {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 1;
+}
+.services-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 4px 0 #d7d9d8;
+}
+.services-card-text-content {
+  display: flex;
+  padding: 16px 18px 32px 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 0 0 12px 12px;
+  background: var(--white);
+  height: 282px;
+  box-sizing: border-box;
+}
+.services-card-img {
+  width: 344px;
+  height: 228px;
+  border-radius: 12px 12px 0 0;
+}
+.services-card-title {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.services-card-content {
+  color: var(--gray);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-bottom: auto;
+}
+.services-link-btn-text {
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.services-list-item-svg svg {
+  width: 24px;
+  height: 24px;
+}
+.services-card-link {
+  text-align: center;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.services-card-link:hover,
+.services-card-link:focus {
+  transform: scale(1.05) translateX(10px);
+}
+
+@media screen and (min-width: 768px) {
+  .services-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .services-section-first-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services-title {
+    font-size: 52px;
+    letter-spacing: -1.04px;
+  }
+  .services-title-content {
+    font-size: 16px;
+  }
+  .services-cards-btns {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin-bottom: 40px;
+  }
+
+  .services-cards.active {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .services-card {
+    width: 329px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .services-section-desk-position {
+    display: flex;
+    height: 292px;
+    width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .services-section-first-part {
+    width: 327px;
+  }
+  .services-title-content {
+    margin-bottom: 0;
+  }
+
+  .services-cards-btns {
+    width: 676px;
+    margin-bottom: 0px;
+    margin-top: auto;
+  }
+
+  .services-cards.active {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .services-card {
+    width: 327px;
+  }
+}
