@@ -12,9 +12,9 @@
 
 .footer-nav-link-list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  row-gap: 44px;
+  column-gap: 22px;
 }
 
 .footer-nav-link {
@@ -22,6 +22,9 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 1.6;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: 1px solid var(--white);
 }
 
 .footer-link-btn {
@@ -95,8 +98,48 @@
 /* ================================= TABLET ================================= */
 
 @media screen and (min-width: 768px) {
+  .footer-nav-link-list {
+    justify-content: center;
+  }
+
+  .footer-vebstudio-links {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+  }
 }
 
 /* ================================= DESKTOP ================================= */
 @media screen and (min-width: 1440px) {
+  .footer-section-first-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  .footer-nav-link-list {
+    column-gap: 10px;
+  }
+
+  .footer-link-btn {
+    margin-bottom: 0px;
+  }
+
+  .footer-nav-link {
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+
+  .footer-nav-link:hover,
+  .footer-nav-link:focus {
+    color: var(--black);
+    background-color: var(--white);
+    transform: translateY(-4px) scale(1.06);
+  }
+
+  .footer-vebstudio-links {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
