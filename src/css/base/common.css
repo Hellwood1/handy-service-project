@@ -64,4 +64,5 @@ a {
   font-style: normal;
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }

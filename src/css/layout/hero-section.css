@@ -9,7 +9,7 @@
   position: absolute;
   inset: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
   object-fit: cover;
   z-index: -2;
 }
@@ -93,6 +93,23 @@
     align-items: center;
     row-gap: 40px;
     justify-content: center;
+  }
+
+  .social-media-hero-svg {
+    display: block; /* без базлайнових “стрибків” */
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+
+  .hero-social-media-link:hover .social-media-hero-svg,
+  .hero-social-media-link:focus-visible .social-media-hero-svg {
+    transform: translateY(-4px) scale(1.06);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .social-media-hero-svg {
+      transition: none;
+    }
   }
 
   .hero-section-text-wrapper {

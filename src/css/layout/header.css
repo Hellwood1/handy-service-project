@@ -1,3 +1,8 @@
+.header-section {
+  position: relative;
+  z-index: 100;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -159,9 +164,25 @@
     border-radius: 30px;
     padding: 12px 22px;
     background-color: var(--black);
+
+    transition: transform 0.3s ease;
+    transform-origin: center;
   }
 
   .phone-icon-wrapper {
     height: 13px;
+  }
+  .header-nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+
+  .phone-link:hover,
+  .phone-link:focus,
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    transform: translateY(-4px) scale(1.06);
   }
 }
