@@ -4,6 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import en from "../locales/en.json";
 import dk from "../locales/dk.json";
 
+
 i18next
   .use(LanguageDetector)
   .init({

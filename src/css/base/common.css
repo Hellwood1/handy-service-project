@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--bg-white);
 }
 
 h1,
@@ -20,7 +21,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  font-family: 'Montserrat';
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -60,4 +67,5 @@ a {
   font-style: normal;
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }

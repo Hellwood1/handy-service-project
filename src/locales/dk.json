@@ -1,4 +1,15 @@
 {
+ "header-nav-first-link": "Fordele",
+ "header-nav-second-link": "Om mig",
+ "header-nav-third-link": "Ydelser",
+ "header-nav-fourth-link": "Anmeldelser",
+ "header-nav-femth-link": "Kontakt",
+ "header-nav-sixth-link": "Behandle",
+
+ "hero-title":"Reparation gjort nemt – totalløsninger med garanti for kvalitet og en velkomstgave til nye kunder",
+ "hero-pre-title-text":"HandyService — din pålidelige, personlige håndværker i Jylland, Danmark.",
+ "hero-link-btn": "Book en håndværker",
+
   "benefits-pretitle": "Gør boligreparationer nemme og uden stress",
   "benefits-title": "Hvorfor vælge Handy Service",
   "benefits-title-content": "Dygtig, pålidelig og engageret — jeg lægger vægt på at levere reparationer og forbedringer af høj kvalitet, der holder. Dit hjem fortjener det bedste, og jeg sørger for, at alle detaljer bliver taget hånd om med omhu.",
@@ -97,10 +108,45 @@
   "repair-steps-title-content3": "Vi aftaler et tidspunkt, der passer dig — også aften, weekend eller helligdage.",
   "repair-steps-title-content4": "Jeg udfører alt arbejdet fra start til slut med kvalitetsmaterialer og professionelle værktøjer. Hvor det er muligt, anvender jeg miljøvenlige løsninger.",
   "repair-steps-title-content5": "Vi gennemgår resultatet sammen. Jeg sikrer, at alt lever op til dine forventninger, rydder pænt op og efterlader dit hjem klar til brug.",
-  "repair-steps-title-content6": "Alt arbejde udføres med kvalitetsgaranti. Skulle der være behov for en justering, ordner jeg det hurtigt uden ekstra omkostninger."
+  "repair-steps-title-content6": "Alt arbejde udføres med kvalitetsgaranti. Skulle der være behov for en justering, ordner jeg det hurtigt uden ekstra omkostninger.",
 
+  "about-me-title": "Erfaren håndværker, der udfører alle former for totalrenovering hurtigt",
+  "about-me-first-paragrap": "Jeg er en erfaren handyman, der i mange år har arbejdet i Esbjerg og over hele Jylland. Jeg tilbyder professionelle reparationer og renoveringer til konkurrencedygtige priser — altid med kvalitetsgaranti og mulighed for at bestille også i weekender og på helligdage.",
+  "about-me-second-paragraph": "Jeg er specialiseret i facade­reparationer, maling af vægge (inde og ude), tømrer- og snedkerarbejde, montering af specialmål PVC-vinduer eller færdige enheder samt belægning med sten.",
+  "about-me-third-paragraph": "Skal du flytte ud? Lad mig hjælpe dig med at undgå uventede udgifter og konflikter. Jeg udbedrer hurtigt fejl, skader og slid, så din bolig står klar til syn: maling af vægge, fornyelse af gulve, udfyldning af revner og udbedring af nødvendige detaljer.",
+  "about-me-fourth-paragraph": "Jeg kan lide udfordrende opgaver og er ikke bange for nye projekter. Send en forespørgsel, så finder vi en tid, der passer dig — og jeg sørger for, at din fraflytning bliver så nem og problemfri som muligt.",
+  "about-me-fifth-paragraph": "års erfaring",
+  "about-me-sixth-paragraph": "afsluttede projekter",
 
+  "testimonials-pre-title": "Ægte historier. Ægte resultater.",
+  "testimonials-title": "Læs hvad mine kunder siger!",
+  "testimonials-title-text": "Se hvad boligejere, jeg har hjulpet, fortæller.",
 
+  "testimonials-first-card-quote":"\"Vi hyrede Mikhail til at reparere revner og male facaden på vores træhus. Resultatet overgik alle forventninger — overfladen ser frisk og glat ud, og malerarbejdet er helt fejlfrit. Han arbejdede hurtigt, rent og gav endda råd om, hvordan malingen kan holde længere.\"",
+  "testimonials-first-card-name": "Anna",
+  "testimonials-first-card-city": "Esbjerg",
+
+  "testimonials-second-card-quote":"\"Vi bestilte specialmål PVC-vinduer hos Mikhail, og han monterede dem perfekt. Ingen træk, perfekt pasform, og arbejdet blev færdigt hurtigere end lovet.\"",
+  "testimonials-second-card-name": "Maria",
+  "testimonials-second-card-city": "Fredericia",
+
+  "testimonials-third-card-quote":"\"Vi havde brug for en ny indkørsel, og Mikhail lagde belægningsstenene rigtig flot. Linjerne er lige, mønstret er præcis som vi ønskede, og selv efter kraftig regn dræner overfladen perfekt.\"",
+  "testimonials-third-card-name": "Lars",
+  "testimonials-third-card-city": "Vejle",
+
+  "testimonials-fourth-card-quote":"\"Mikhail udskiftede gamle kontakter og installerede nye loftslamper i vores stue. Han arbejdede pænt og forklarede alt undervejs. Meget tillidsvækkende.\"",
+  "testimonials-fourth-card-name": "Elena",
+  "testimonials-fourth-card-city": "Tarm",
+
+  "testimonials-fifth-card-quote":"\"Mikhail forvandlede vores loft til et hyggeligt gæsteværelse ved at sætte gipsvægge og loft op. Alt blev udført præcist, og finishen er perfekt. Det føles som et helt nyt rum nu.\"",
+  "testimonials-fifth-card-name": "Peter",
+  "testimonials-fifth-card-city": "Kolding",
+
+  "testimonials-sixth-card-quote":"\"Vi bad Mikhail om at forny vores stue med nyt gulv og maling. Resultatet blev fantastisk — rummet ser lysere og mere moderne ud, og kvaliteten er helt i top. Han blev færdig til tiden og efterlod alt skinnende rent.\"",
+  "testimonials-sixth-card-name": "Jonas",
+  "testimonials-sixth-card-city": "Aarhus"
 
 
 }
+
+

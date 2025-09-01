@@ -1,0 +1,151 @@
+.about-me-section {
+  padding: 60px 0px;
+  background-color: var(--black);
+}
+
+.about-me-svg-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.about-me-title {
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--nordic-blue);
+
+  margin-bottom: 12px;
+}
+
+.about-me-text-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-bottom: 32px;
+}
+
+.about-me-first-paragraph,
+.about-me-second-paragraph,
+.about-me-third-paragraph,
+.about-me-fourth-paragraph {
+  color: var(--white);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.about-me-second-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.about-me-cirkle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.about-me-first-number,
+.about-me-second-number {
+  height: 194px;
+  width: 194px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: var(--nordic-blue);
+
+  /* Типографія цифри */
+  color: var(--white);
+  font-family: 'Montserrat';
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.about-me-second-number {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* Типографія допису під цифрою */
+.about-me-fifth-paragraph,
+.about-me-sixth-paragraph {
+  color: var(--white);
+  font-family: 'Montserrat';
+  font-size: 14px;
+
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* TABLET*/
+
+@media screen and (min-width: 768px) {
+  .about-me-section {
+    padding: 80px 0px;
+  }
+
+  .about-me-svg-wrapper {
+    justify-content: left;
+    margin-bottom: 18px;
+  }
+
+  .about-me-title {
+    margin-bottom: 18px;
+  }
+
+  .about-me-text-list {
+    max-width: 638px;
+    margin-bottom: 40px;
+  }
+
+  .about-me-second-block {
+    position: relative;
+    left: -10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about-me-cirkle-wrapper {
+    align-items: flex-start;
+  }
+
+  .about-me-second-cirkle {
+    position: relative;
+    left: -10px;
+  }
+
+  .about-me-first-number,
+  .about-me-second-number {
+    height: 178px;
+    width: 178px;
+  }
+}
+
+/* ======================DESKTOP 1440px================ */
+
+@media screen and (min-width: 1440px) {
+  .about-me-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 130px;
+    flex-direction: row-reverse;
+  }
+
+  .about-me-text-list {
+    max-width: 678px;
+    margin-bottom: 0px;
+  }
+
+  .about-me-first-paragraph,
+  .about-me-second-paragraph,
+  .about-me-third-paragraph,
+  .about-me-fourth-paragraph {
+    font-size: 16px;
+  }
+}

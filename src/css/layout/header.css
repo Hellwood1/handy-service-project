@@ -1,0 +1,188 @@
+.header-section {
+  position: relative;
+  z-index: 100;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.header-second-wrapper {
+  display: flex;
+  column-gap: 30px;
+}
+
+.mobile-menu-open-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.header-navigation {
+  display: none;
+}
+
+.phone-link {
+  display: none;
+}
+
+/* Drop up */
+.lang-menu {
+  display: block;
+  width: 60px;
+  position: relative;
+  z-index: 100;
+}
+
+.selected-lang {
+  width: 80px;
+  height: 100px;
+  display: flex;
+  color: white;
+  column-gap: 6px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.selected-lang:before {
+  content: '';
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-image: url(../../img/hero/eng.png);
+}
+
+.lang-menu ul {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: var(--black);
+  width: 76px;
+  border-radius: 5px;
+}
+
+.lang-menu ul li {
+  display: flex;
+  row-gap: 6px;
+  padding: 6px;
+}
+
+.eng-lang,
+.dk-lang {
+  color: var(--white);
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.lang-menu:hover ul,
+.lang-menu:focus ul {
+  display: block;
+}
+
+/* ================================= TABLET ================================= */
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 116px;
+    height: 86px;
+  }
+
+  .header-navigation {
+    display: flex;
+  }
+
+  .header-nav-link-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 372px;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .header-nav-link-list li a {
+    display: flex;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    line-height: 1.6;
+
+    color: var(--white);
+    border-radius: 30px;
+    border: 1px solid var(--black);
+    background: var(--black);
+  }
+
+  .lang-menu {
+    width: 100px;
+  }
+
+  .selected-lang {
+    width: 100px;
+    column-gap: 10px;
+    font-size: 16px;
+  }
+
+  .mobile-menu-open-btn {
+    display: none;
+  }
+}
+
+/* ================================= DESKTOP ================================= */
+
+@media screen and (min-width: 1440px) {
+  .header-nav-link-list {
+    flex-wrap: nowrap;
+    max-width: none;
+    gap: 8px;
+  }
+
+  .header-second-wrapper {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+
+  .header-nav-link-list li a {
+    padding: 12px 22px;
+  }
+
+  .phone-link {
+    display: flex;
+    column-gap: 6px;
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    border-radius: 30px;
+    padding: 12px 22px;
+    background-color: var(--black);
+
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+
+  .phone-icon-wrapper {
+    height: 13px;
+  }
+  .header-nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+
+  .phone-link:hover,
+  .phone-link:focus,
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    transform: translateY(-4px) scale(1.06);
+  }
+}

@@ -1,0 +1,159 @@
+.testimonials-section {
+  padding: 60px 0px;
+  background-color: var(--black);
+}
+
+.testimonials-first-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.testimonials-pre-title {
+  color: var(--nordic-blue);
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.testimonials-title {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.testimonials-title-text {
+  color: var(--gray);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.manual-swiper-wrapper {
+  height: 450px !important;
+}
+
+/* Оформлення та типографія карточок для слайдеру*/
+
+.card-wrapper {
+  padding: 32px;
+  border-radius: 40px;
+  background: var(--white);
+}
+
+.testimonials-svg {
+  fill: rgba(33, 33, 33, 0.1);
+  margin-bottom: 12px;
+}
+
+.testimonials-first-card-quote,
+.testimonials-second-card-quote,
+.testimonials-third-card-quote,
+.testimonials-fourth-card-quote,
+.testimonials-fifth-card-quote,
+.testimonials-sixth-card-quote {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  margin-bottom: 12px;
+}
+
+.testimonials-first-card-name,
+.testimonials-second-card-name,
+.testimonials-third-card-name,
+.testimonials-fourth-card-name,
+.testimonials-fifth-card-name,
+.testimonials-sixth-card-name {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 600;
+
+  margin-bottom: 4px;
+}
+
+.testimonials-first-card-city,
+.testimonials-second-card-city,
+.testimonials-third-card-city,
+.testimonials-fourth-card-city,
+.testimonials-fifth-card-city,
+.testimonials-sixth-card-city {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--gray);
+}
+
+/* Звернення до крапочок в пагінації свайпера */
+
+.swiper-pagination-bullets {
+  color: var(--gray) !important;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--white) !important;
+}
+
+/* TABLET*/
+
+@media screen and (min-width: 768px) {
+  .testimonials-section {
+    padding: 80px 0px;
+  }
+
+  .testimonials-title {
+    font-size: 52px;
+  }
+
+  .testimonials-title-text {
+    font-size: 16px;
+  }
+
+  .testimonials-svg {
+    width: 60px;
+    height: 38px;
+    margin-bottom: 16px;
+  }
+
+  .testimonials-first-card-quote,
+  .testimonials-second-card-quote,
+  .testimonials-third-card-quote,
+  .testimonials-fourth-card-quote,
+  .testimonials-fifth-card-quote,
+  .testimonials-sixth-card-quote {
+    font-size: 16px;
+  }
+
+  .testimonials-first-card-name,
+  .testimonials-second-card-name,
+  .testimonials-third-card-name,
+  .testimonials-fourth-card-name,
+  .testimonials-fifth-card-name,
+  .testimonials-sixth-card-name {
+    font-size: 24px;
+  }
+
+  .swiper-pagination-manual {
+    position: relative !important;
+  }
+}
+
+/* ======================DESKTOP 1440px================ */
+
+@media screen and (min-width: 1440px) {
+  .testimonials-section-wrapper {
+    display: flex;
+    column-gap: 140px;
+  }
+
+  .testimonials-first-wrapper {
+    margin-left: 100px;
+  }
+
+  .card-wrapper {
+    width: 284px;
+  }
+}
