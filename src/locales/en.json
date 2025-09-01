@@ -1,4 +1,5 @@
 {
+
   "benefits-pretitle": "Making Home Repairs Easy and Stress-Free",
   "benefits-title": "Why Choose Handy Service",
   "benefits-title-content": "Skilled, reliable, and dedicated — I take pride in delivering high-quality repairs and improvements that last. Your home deserves the best, and I’m here to make sure every detail is handled with care.",
@@ -11,5 +12,104 @@
   "benefits-second-content": "With over 8 years of experience, I’ve handled everything from minor repairs to full renovations, including attics, facades, driveways, and flooring.",
   "benefits-third-content": "Before I start, you’ll know exactly how much it will cost — no hidden fees, ever.",
   "benefits-fourth-content": "I’m committed to using sustainable and non-toxic materials whenever possible, ensuring your home is safe, healthy, and environmentally responsible.",
-  "benefits-fifth-content": "I always clean up after myself so you can enjoy the result without the mess."
+  "benefits-fifth-content": "I always clean up after myself so you can enjoy the result without the mess.",
+
+  "services-pretitle": "Taking care of your home like it’s my own",
+  "services-title": "My Services",
+  "services-title-content": "Click on the buttons above to switch between service categories.",
+  "services-first-btn": "Painting & Finishing",
+  "services-second-btn": "Walls & Drywall",
+  "services-third-btn": "Paving & Driveways",
+  "services-fourth-btn": "Installation & Repairs",
+  "services-fifth-btn": "Other Services",
+  "services-first-title-one": "Wall and ceiling plastering ",
+  "services-first-title-two": "Wall and Ceiling Painting",
+  "services-first-title-three": "Facade Repairs and Crack Filling",
+  "services-first-title-four": "Facade Painting",
+  "services-second-title-one": "Ceiling Cladding with Drywall",
+  "services-second-title-two": "Wall and Partition Construction",
+  "services-second-title-three": "Attic Room Conversion",
+  "services-third-title-one": "Paving & Stonework Installation",
+  "services-thirs-title-two": "Driveway Construction",
+  "services-fourth-title-one": "Floor Insulation ",
+  "services-fourth-title-two": "Floor Replacement",
+  "services-fourth-title-three": "Window & Door Installation",
+  "services-fourth-title-four": "Roof Repair & Replacement",
+  "services-fifth-title-one": "Electrical Repairs",
+  "services-fifth-title-two": "Mounting & Installation",
+  "services-fifth-title-three": "Assembly & Setup",
+  "services-fifth-title-four": "Home repairs before you move",
+  "services-first-content-one": "I smooth and prepare your walls and ceilings, creating a flawless surface that ensures perfect paint adhesion and a clean, professional finish.",
+  "services-first-content-two": "Using high-quality, durable paints, I bring fresh color and protection to your walls and ceilings — transforming your space with a neat, long-lasting result.",
+  "services-first-content-three": "I carefully repair cracks and damage on all types of facades — including wooden surfaces — restoring their strength and appearance to protect your home from weather and wear.",
+  "services-first-content-four": "I apply high-quality, weather-resistant paints to facades, including wooden ones, to refresh and protect your exterior, ensuring lasting beauty and durability.",
+  "services-second-content-one": "Upgrade your interior with a flawlessly smooth drywall ceiling. I create a modern, polished look that enhances lighting, hides imperfections, and adds lasting value to your home.",
+  "services-second-content-two": "Reimagine your space with expertly built walls and partitions. Whether you need to divide rooms, create privacy, or redesign your layout, I deliver sturdy, stylish solutions that fit your lifestyle.",
+  "services-second-content-three": "Turn unused attic space into your favorite room. From cozy bedrooms to bright offices, we transform attics into beautiful, functional living areas that increase comfort and property value.",
+  "services-third-content-one": "I skillfully lay paving stones and tiles to create strong, even, and elegant surfaces that enhance both the look and functionality of your outdoor space.",
+  "services-third-content-two": "I build and finish durable, well-designed driveways that provide smooth access, withstand heavy use, and add lasting curb appeal to your property.",
+  "services-fourth-content-one": "I expertly insulate and install all types of flooring, ensuring warmth, comfort, and energy efficiency, while enhancing the style and durability of your home.",
+  "services-fourth-content-two": "I install laminate, vinyl, and wooden floors with precision, including preparation, removal of old coverings, and flawless finishing for a beautiful, long-lasting result.",
+  "services-fourth-content-three": "I professionally install windows and doors, including custom-made PVC windows, ensuring perfect fit, insulation, and lasting performance.",
+  "services-fourth-content-four": "I repair leaks, replace damaged coverings, and install gutter systems to protect your home from water damage and extend your roof’s life.",
+  "services-fifth-content-one": "I handle minor electrical tasks — replacing switches, outlets, and installing lamps — ensuring safety, reliability, and neat results.",
+  "services-fifth-content-two": "I securely mount curtain rods, shelves, and mirrors, giving your space both function and a polished look.",
+  "services-fifth-content-three": "I assemble and install furniture with precision, so every piece is sturdy, functional, and perfectly placed in your home.",
+  "services-fifth-content-four": "Cracked walls, squeaky floors, wobbly furniture? I’ll come by and take care of it all — locks, doors, furniture, walls, floors, and any other issues that have piled up over the years.",
+  "services-link-btn": "Request Service",
+
+  "approach-pretitle": "Focus on Quality and Efficiency",
+  "approach-title": "Your Partner for Complete Home Renovations",
+  "approach-title-content": "From the first idea to the final detail, I take care of everything for you.",
+  "approach-text1": "Why juggle different contractors when you can have one skilled craftsman handling your entire project? With me, you get a true turnkey solution: I plan, coordinate, and complete every step myself, so you can enjoy the result without the stress.",
+  "approach-text-list-title": "What you can expect:",
+  "approach-listitem1": "One reliable partner from start to finish",
+  "approach-listitem2": "Smooth process without delays or confusion",
+  "approach-listitem3": "Quality workmanship with care for every detail",
+  "approach-listitem4": "Honest communication and respect for your time and home",
+  "approach-text2": "Whether it’s a full renovation or smaller upgrades, I make the process simple, efficient, and tailored to your needs. Your home, your vision — delivered under one roof, by one pair of trusted hands.",
+
+  "contact-form-pretitle": "Your Solution Starts Here",
+  "contact-form-title": "Let’s Fix It Together",
+  "contact-form-title-content": "Tell me about your project or repair needs, and I’ll get back to you with a free quote and the earliest possible time slot.",
+  "contact-form-call-me": "Call Me",
+  "contact-form-work-hours": "Available for calls daily",
+  "contact-form-office": "Office",
+  "contact-form-form-title": "Share your contacts, and I’ll be in touch shortly",
+  "contact-form-name": "Enter your name*",
+  "contact-form-number": "Enter phone number*",
+  "contact-form-comment": "Сomment",
+  "contact-form-submit-btn": "Book a Handyman",
+  "contact-form-cover-title": "Hi! 👋 \nI’ve received your request",
+  "contact-form-cover-massege": "I’ll get in touch with you soon to confirm the details and arrange a time.",
+  "contact-form-cover-btn": "Got it",
+
+  "repair-steps-pretitle": "Clear, Simple Steps for a Perfect Repair",
+  "repair-steps-title": "My Repair Steps",
+  "repair-steps-title-content": "I follow a clear, step-by-step process — from inspection to the finishing touches — ensuring your repair is done right the first time.",
+  "repair-steps-title1": "01. Request & Consultation",
+  "repair-steps-title2": "02. Free Quote & Timeline",
+  "repair-steps-title3": "03. Scheduling",
+  "repair-steps-title4": "04. Turnkey Execution",
+  "repair-steps-title5": "05. Final Check & Cleaning",
+  "repair-steps-title6": "06. Warranty & Support",
+  "repair-steps-title-content1": "You contact me — by phone, email, or the website form — and describe your problem or project.",
+  "repair-steps-title-content2": "Based on your request, I provide a clear, fixed-price quote with no hidden fees and an estimated completion time.",
+  "repair-steps-title-content3": "We set a convenient time — including evenings, weekends, or holidays — so the work fits your schedule.",
+  "repair-steps-title-content4": "I complete all work from start to finish, using quality materials and professional tools. I also use eco-friendly options whenever possible.",
+  "repair-steps-title-content5": "We review the results together. I make sure everything meets your expectations, clean up the workspace, and leave your home ready to enjoy.",
+  "repair-steps-title-content6": "All work comes with a quality guarantee. If something needs adjustment, I’ll fix it promptly at no extra cost."
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
