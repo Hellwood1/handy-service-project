@@ -56,6 +56,10 @@
   background-color: var(--black);
 }
 
+.hero-link-svg {
+  fill: var(--white);
+}
+
 .hero-link-btn:hover .hero-link-svg {
   animation: bounce-up-down 0.8s ease forwards;
 }
@@ -68,6 +72,8 @@
     transform: translateY(-8px);
   }
 }
+
+/* ================================= TABLET ================================= */
 
 @media screen and (min-width: 768px) {
   .hero-bg {
@@ -96,7 +102,7 @@
   }
 
   .social-media-hero-svg {
-    display: block; /* без базлайнових “стрибків” */
+    display: block;
     transition: transform 0.3s ease;
     transform-origin: center;
   }

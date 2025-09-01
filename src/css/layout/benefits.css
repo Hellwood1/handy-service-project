@@ -2,6 +2,7 @@
   padding-bottom: 60px;
   background: var(--gb-white);
   position: relative;
+  padding-top: 80pxw;
 }
 .language-test {
   position: absolute;
@@ -13,7 +14,7 @@
   color: var(--nordic-blue);
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.2; /* 16.8px */
+  line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -22,7 +23,7 @@
 
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.1; /* 39.6px */
+  line-height: 1.1;
   letter-spacing: -0.72px;
   text-transform: uppercase;
   margin-bottom: 20px;
