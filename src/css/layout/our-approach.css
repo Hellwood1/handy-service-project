@@ -11,7 +11,7 @@
 }
 .approach-pretitle {
   color: var(--nordic-blue);
-  font-family: Montserrat;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -20,20 +20,17 @@
 }
 .approach-title {
   color: var(--black);
-  font-family: Montserrat;
   font-size: 36px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 110%; /* 39.6px */
+  line-height: 1.1;
   letter-spacing: -0.72px;
   text-transform: uppercase;
 }
 .approach-title-content {
   color: var(--gray);
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 24px */
+
+  line-height: 1.6;
 }
 
 .approach-images {
@@ -71,25 +68,24 @@
 .approach-text-content {
   color: var(--black);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
+  line-height: 1.6;
 }
+
 .approach-text-title {
   font-weight: 600;
 }
+
 .approach-text-content-list {
   color: var(--black);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
+  margin-left: 10px;
+  line-height: 1.6;
   list-style-type: disc;
   list-style-position: inside;
 }
 
 .approach-text-content-bottom {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {

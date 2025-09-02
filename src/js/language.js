@@ -8,7 +8,7 @@ import dk from "../locales/dk.json";
 i18next
   .use(LanguageDetector)
   .init({
-    fallbackLng: "en",
+    fallbackLng: "da",
     debug: true,
     resources: {
       en: { translation: en },

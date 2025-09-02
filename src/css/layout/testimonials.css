@@ -149,11 +149,20 @@
     column-gap: 140px;
   }
 
+  .testimonials-title {
+    width: 368px;
+  }
+
   .testimonials-first-wrapper {
     margin-left: 100px;
   }
 
   .card-wrapper {
     width: 284px;
+  }
+
+  .swiper-slide {
+    margin-left: 6px !important;
+    margin-right: 60px !important;
   }
 }
