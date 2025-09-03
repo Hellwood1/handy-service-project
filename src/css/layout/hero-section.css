@@ -1,7 +1,6 @@
 .hero-section-container {
   position: relative;
   top: -156px;
-
   overflow: hidden;
 }
 
@@ -139,6 +138,9 @@
 
 /* ================================= DESKTOP ================================= */
 @media screen and (min-width: 1440px) {
+  .hero-section-container {
+    /* margin-bottom: 300px; */
+  }
   .hero-section-text-wrapper {
     display: flex;
     justify-content: space-between;
