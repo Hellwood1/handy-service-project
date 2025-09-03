@@ -121,15 +121,14 @@
   padding: 18px 12px;
   align-items: center;
   gap: 10px;
+  font-family: 'Open Sans';
   align-self: stretch;
   border-radius: 12px;
   border: 1px solid var(--white);
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 24px */
+  line-height: 1.6;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;

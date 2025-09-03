@@ -1,7 +1,4 @@
 .hero-section-container {
-  position: relative;
-  top: -156px;
-  overflow: hidden;
 }
 
 .hero-bg {
@@ -76,7 +73,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-bg {
-    height: 164%;
+    height: 173%;
   }
 
   .hero-title {
@@ -138,13 +135,17 @@
 
 /* ================================= DESKTOP ================================= */
 @media screen and (min-width: 1440px) {
+  .hero-section-container {
+    padding-bottom: 130px;
+  }
+
   .hero-section-text-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     display: flex;
     margin-left: 120px;
-    margin-top: 280px;
+    margin-top: 120px;
   }
 
   .hero-title {
@@ -152,7 +153,7 @@
   }
 
   .hero-bg {
-    height: 86%;
+    height: 110%;
   }
 
   .hero-link-btn {
