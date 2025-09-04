@@ -70,23 +70,36 @@
         data-i18n="contact-form-form-title"
         class="contact-form-form-title"
       ></h3>
-      <form id="contactForm" class="contactForm">
-        <input class="contactForm-input" type="text" id="name" required />
+      <form
+        id="contactForm"
+        class="contactForm"
+        method="POST"
+        action="https://script.google.com/macros/s/AKfycbxT4HcElsfYrZAEPWPmSmL8ocY2kiiViUw7yToAXHOJN9LJyCVj3YUY-LDWAWumPloi/exec"
+      >
+        <input
+          class="contactForm-input"
+          type="text"
+          id="name"
+          name="name"
+          required
+        />
         <input
           class="contactForm-input"
           pattern="[0-9]+"
           type="tel"
           id="phone"
+          name="phone"
           required
         />
         <textarea
           class="contactForm-input"
           id="comment"
           rows="4"
+          name="comment"
           required
         ></textarea>
         <button class="contactForm-btn" type="submit" id="submitBtn">
-          <p data-i18n="contact-form-submit-btn"></p>
+          <span data-i18n="contact-form-submit-btn"></span>
           <div class="contact-form-btn-svg">
             <svg aria-hidden="true" focusable="false">
               <use href="./img/sprite.svg#icon-foam-roller"></use>
