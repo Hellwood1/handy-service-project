@@ -171,7 +171,7 @@
 .contact-form-btn-svg svg {
   width: 32px;
   height: 32px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .contactForm-btn svg use {
@@ -179,10 +179,9 @@
   fill: var(--black);
 }
 
-.contactForm-btn:hover,
-.contactForm-btn:focus {
-  background-color: var(--black);
-  color: var(--white);
+.contactForm-btn:hover .contact-form-btn-svg,
+.contactForm-btn:focus .contact-form-btn-svg {
+  animation: bounce-up-down 0.8s ease forwards;
 }
 
 .contactForm-btn:hover svg use,
