@@ -1,4 +1,5 @@
 .hero-section-container {
+  padding-bottom: 100px;
 }
 
 .hero-bg {
@@ -11,7 +12,7 @@
 }
 
 .hero-section-text-wrapper {
-  margin-top: 210px;
+  margin-top: 84px;
 }
 
 .hero-title {
@@ -153,7 +154,7 @@
   }
 
   .hero-bg {
-    height: 110%;
+    height: 840px;
   }
 
   .hero-link-btn {
