@@ -5,8 +5,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import en from "../locales/en.json";
 import dk from "../locales/dk.json";
 
-import flagEN from "../img/hero/eng.png";
-import flagDK from "../img/hero/dk.png";
+import flagEN from "./img/hero/eng.png";
+import flagDK from "./img/hero/dk.png";
 
 const ALIAS = { en: "en", "en-US": "en", dk: "dk", da: "dk", "da-DK": "dk" };
 const FLAGS = { en: flagEN, dk: flagDK };
