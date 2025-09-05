@@ -49,36 +49,28 @@
   text-transform: uppercase;
 }
 
-.selected-lang:before {
-  content: '';
-  display: block;
-  width: 28px;
-  height: 28px;
-  background-image: url(../../img/hero/eng.png);
-}
-
 .lang-menu ul {
   display: none;
   position: absolute;
-  top: 40px;
-  left: 0;
-  background-color: var(--black);
-  width: 76px;
-  border-radius: 5px;
+  top: 70px;
+  left: -10px;
 }
 
-.lang-menu ul li {
-  display: flex;
-  row-gap: 6px;
-  padding: 6px;
+.img-lang {
+  width: 28px;
+  height: 28px;
 }
 
 .eng-lang,
 .dk-lang {
+  display: flex;
   color: var(--white);
   padding: 10px;
+  font-size: 16px;
   border: none;
   background-color: transparent;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .lang-menu:hover ul,

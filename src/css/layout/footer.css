@@ -46,6 +46,22 @@
   margin-bottom: 60px;
 }
 
+.footer-social-media-link {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  background-color: var(--nordic-blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 180ms ease;
+}
+
+.social-media-footer-svg {
+  fill: var(--white);
+}
+
 .footer-social-media-second-list {
   display: flex;
   row-gap: 12px;
@@ -84,8 +100,8 @@
   transform-origin: center;
 }
 
-.footer-social-media-link:hover .social-media-footer-svg,
-.footer-social-media-link:focus-visible .social-media-footer-svg {
+.footer-social-media-link:hover,
+.footer-social-media-link:focus-visible {
   transform: translateY(-4px) scale(1.06);
 }
 
