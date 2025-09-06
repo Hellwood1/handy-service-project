@@ -13,9 +13,8 @@
   color: var(--nordic-blue);
 
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 16.8px */
+  line-height: 1.2;
   text-transform: uppercase;
 }
 .approach-title {
@@ -108,6 +107,10 @@
   .approach-images {
     margin-bottom: 34px;
   }
+
+  .approach-text-content-bottom {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -123,6 +126,6 @@
     width: 678px;
   }
   .approach-text-content-bottom {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 }
