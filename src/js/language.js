@@ -7,7 +7,7 @@ import dk from "../locales/dk.json";
 import flagEN from "../img/hero/eng.png";
 import flagDK from "../img/hero/dk.png";
 
-const ALIAS = { en: "en", "en-US": "en", dk: "dk", da: "dk", "da-DK": "dk" };
+const ALIAS = { en: "en", dk: "dk" };
 const FLAGS = { en: flagEN, dk: flagDK };
 const ALL_LANGS = ["en", "dk"];
 
@@ -15,7 +15,7 @@ i18next
   .use(LanguageDetector)
   .init({
     fallbackLng: "dk",
-    debug: true,
+    debug: false,
     resources: {
       en: { translation: en },
       dk: { translation: dk },
