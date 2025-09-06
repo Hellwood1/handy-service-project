@@ -1,15 +1,28 @@
 <section class="hero-section-container">
-  <video class="hero-bg" autoplay muted loop playsinline poster="">
+  <video
+    class="hero-bg"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    aria-hidden="true"
+    tabindex="-1"
+  >
     <source src="./img/hero/hero-wrapper.mp4" type="video/mp4" />
   </video>
   <div class="container">
     <div class="hero-section-text-wrapper">
       <div>
-        <h1 class="hero-title" data-i18n="hero-title"></h1>
-        <p class="hero-pre-title-text" data-i18n="hero-pre-title-text"></p>
+        <h1 class="hero-title" data-i18n="hero-title">
+          HandyService — maler & handyman
+        </h1>
+        <p class="hero-pre-title-text" data-i18n="hero-pre-title-text">
+          Fasaderenovering, maling, reparationer i Region Syddanmark
+        </p>
       </div>
 
-      <ul class="hero-social-media-list">
+      <ul class="hero-social-media-list" aria-label="Sociale medier">
         <li>
           <a
             href="https://wa.me/4550213233"
@@ -51,8 +64,8 @@
       </ul>
     </div>
 
-    <a class="hero-link-btn" href="#contact-form"
-      ><span data-i18n="hero-link-btn"></span>
+    <a class="hero-link-btn" href="#contact-form" aria-label="Kontakt os"
+      ><span data-i18n="hero-link-btn">Få et tilbud</span>
       <svg
         class="hero-link-svg"
         width="32"

@@ -1,7 +1,7 @@
 <header class="header-section">
   <div class="container">
     <div class="header-wrapper">
-      <a class="logo-header" href="./index.html" aria-label="Genstart din side"
+      <a class="logo-header" href="/" aria-label="Gå til forsiden"
         ><svg
           class="logo"
           width="80"
@@ -11,57 +11,64 @@
         >
           <use href="./img/sprite.svg#icon-logo"></use>
         </svg>
+        <span class="visually-hidden">HandyService</span>
       </a>
-      <nav class="header-navigation">
+      <nav class="header-navigation" aria-label="Primær navigation">
         <ul class="header-nav-link-list">
           <li>
             <a
               href="#benefits"
               class="header-nav-link"
               data-i18n="header-nav-first-link"
-            ></a>
+              >Fordele</a
+            >
           </li>
           <li>
             <a
               href="#about-me"
               class="header-nav-link"
               data-i18n="header-nav-second-link"
-            ></a>
+              >Om mig</a
+            >
           </li>
           <li>
             <a
               href="#services"
               class="header-nav-link"
               data-i18n="header-nav-third-link"
-            ></a>
+              >Ydelser</a
+            >
           </li>
           <li>
             <a
               href="#testimonials"
               class="header-nav-link"
               data-i18n="header-nav-fourth-link"
-            ></a>
+              >Anmeldelser</a
+            >
           </li>
           <li>
             <a
               href="#contact-form"
               class="header-nav-link"
               data-i18n="header-nav-femth-link"
-            ></a>
+              >Kontakt</a
+            >
           </li>
           <li>
             <a
               href="#repair-steps"
               class="header-nav-link"
               data-i18n="header-nav-sixth-link"
-            ></a>
+              >Behandle</a
+            >
           </li>
         </ul>
       </nav>
 
       <div class="header-second-wrapper">
         <details class="lang-menu">
-          <summary class="selected-lang">
+          <summary class="selected-lang" aria-label="Vælg sprog">
             En
             <svg class="phone-icon" width="18" height="18">
               <use href="./img/sprite.svg#icon-arrow-bottom"></use>
@@ -75,7 +82,7 @@
                 id="btn-en"
                 data-flag="../img/hero/eng.png"
               >
-                <img src="./img/hero/eng.png" class="img-lang" alt="" />
+                <img src="./img/hero/eng.png" class="img-lang" alt="English" />
                 En
               </button>
             </li>
@@ -86,15 +93,24 @@
                 id="btn-dk"
                 data-flag="../img/hero/dk.png"
               >
-                <img src="./img/hero/dk.png" class="img-lang" alt="" />
+                <img src="./img/hero/dk.png" class="img-lang" alt="Dansk" />
                 Dk
               </button>
             </li>
           </ul>
         </details>
 
-        <a href="tel:+4550213233" class="phone-link"
-          ><svg class="phone-icon" width="28" height="28">
+        <a
+          href="tel:+4550213233"
+          class="phone-link"
+          aria-label="Ring til os på +45 50 21 32 33"
+          ><svg
+            class="phone-icon"
+            width="28"
+            height="28"
+            aria-hidden="true"
+            focusable="false"
+          >
             <use href="./img/sprite.svg#icon-mob-header"></use>
           </svg>
           +45 50 21 32 33</a
@@ -102,7 +118,7 @@
         <button
           class="mobile-menu-open-btn"
           type="button"
-          aria-label="Open mobile menu"
+          aria-label="Åbn mobilmenu"
           aria-controls="mobile-menu"
           aria-expanded="false"
         >

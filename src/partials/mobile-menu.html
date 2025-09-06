@@ -1,8 +1,8 @@
-<div class="mobile-menu-wrapper">
+<div class="mobile-menu-wrapper" role="dialog" aria-modal="true">
   <button
     class="mobile-menu-close-btn"
     type="button"
-    aria-label="Закрити мобільне меню"
+    aria-label="Luk mobilmenu"
     aria-controls="mobile-menu"
     aria-expanded="true"
   >
@@ -106,8 +106,17 @@
         </li>
       </ul>
 
-      <a href="tel:+4550213233" class="mobile-menu-phone-link"
-        ><svg class="phone-icon" width="26" height="26">
+      <a
+        href="tel:+4550213233"
+        class="mobile-menu-phone-link"
+        aria-label="Ring til os på +45 50 21 32 33"
+        ><svg
+          class="phone-icon"
+          width="26"
+          height="26"
+          aria-hidden="true"
+          focusable="false"
+        >
           <use href="./img/sprite.svg#icon-mob-header"></use>
         </svg>
         <span class="phone-number">+45 50 21 32 33</span></a
