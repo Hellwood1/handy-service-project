@@ -1,15 +1,15 @@
-
 import i18next from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 import en from "../locales/en.json";
 import dk from "../locales/dk.json";
 
-import flagEN from "./img/hero/eng.png";
-import flagDK from "./img/hero/dk.png";
+import flagEN from "../img/hero/eng.png";
+import flagDK from "../img/hero/dk.png";
 
 const ALIAS = { en: "en", "en-US": "en", dk: "dk", da: "dk", "da-DK": "dk" };
 const FLAGS = { en: flagEN, dk: flagDK };
+const ALL_LANGS = ["en", "dk"];
 
 i18next
   .use(LanguageDetector)
@@ -23,11 +23,16 @@ i18next
   })
   .then(() => {
     updateContent();
-    updateSelectedLangUI(mapLng(i18next.language));
+
+    const initial = mapLng(i18next.language);
+    updateSelectedLangUI(initial);
+    updateLangOptionsVisible(initial);
 
     i18next.on("languageChanged", (lng) => {
+      const mapped = mapLng(lng);
       updateContent();
-      updateSelectedLangUI(mapLng(lng));
+      updateSelectedLangUI(mapped);
+      updateLangOptionsVisible(mapped);
     });
   });
 
@@ -43,10 +48,23 @@ function updateContent() {
   });
 }
 
+/** Реалізація приховування пункту поточної мови після її обрання */
+function updateLangOptionsVisible(current) {
+  ALL_LANGS.forEach((l) => {
+    const btn = document.getElementById(`btn-${l}`);
+    if (!btn) return;
+    const li = btn.closest("li") || btn;
+    const hide = l === current;
+
+    li.hidden = hide;
+    btn.setAttribute("aria-hidden", hide ? "true" : "false");
+    btn.tabIndex = hide ? -1 : 0;
+  });
+}
+
 function updateSelectedLangUI(lang) {
   const selected = document.querySelector(".selected-lang");
   if (!selected) return;
-
 
   const arrow = selected.querySelector("svg") || null;
   if (arrow) arrow.remove();
@@ -68,7 +86,7 @@ function updateSelectedLangUI(lang) {
 
   if (arrow) selected.appendChild(arrow);
 
-  ["en", "dk"].forEach((l) => {
+  ALL_LANGS.forEach((l) => {
     const b = document.getElementById(`btn-${l}`);
     if (b) b.setAttribute("aria-pressed", String(l === lang));
   });
@@ -76,7 +94,10 @@ function updateSelectedLangUI(lang) {
 
 document.getElementById("btn-en")?.addEventListener("click", () => {
   i18next.changeLanguage("en");
+  // Реалізував закривання меню з другорядною мовою після її обрання
+  document.querySelector(".lang-menu")?.removeAttribute("open");
 });
 document.getElementById("btn-dk")?.addEventListener("click", () => {
   i18next.changeLanguage("dk");
+  document.querySelector(".lang-menu")?.removeAttribute("open");
 });

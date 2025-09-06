@@ -38,7 +38,6 @@
 
 .selected-lang {
   width: 80px;
-  height: 100px;
   display: flex;
   color: white;
   column-gap: 6px;
@@ -50,9 +49,9 @@
 }
 
 .lang-menu ul {
-  display: none;
+  display: block;
   position: absolute;
-  top: 70px;
+
   left: -10px;
 }
 
@@ -72,10 +71,27 @@
   align-items: center;
   column-gap: 10px;
 }
-
+.lang-menu:hover,
 .lang-menu:hover ul,
 .lang-menu:focus ul {
-  display: block;
+  cursor: pointer;
+}
+
+details ul {
+  transform: 0;
+}
+
+details[open] ul {
+  opacity: 1;
+  transition: transform 0.5s;
+}
+
+details[open] .phone-icon {
+  transform: rotate(180deg);
+}
+
+.phone-icon {
+  transition: transform 0.5s ease;
 }
 
 /* ================================= TABLET ================================= */
