@@ -262,7 +262,9 @@
           aria-label="Åbn mobilmenu"
           aria-controls="mobile-menu"
           aria-expanded="false"
+          aria-haspopup="dialog"
         >
+          >
           <svg
             class="mobile-menu-icon"
             width="32"
@@ -1792,7 +1794,12 @@
   </div>
 </footer>
 
-    <div class="mobile-menu-wrapper" role="dialog" aria-modal="true">
+    <div
+  class="mobile-menu-wrapper"
+  role="dialog"
+  aria-label="Mobilmenu – navigation og kontakt"
+  aria-modal="true"
+>
   <button
     class="mobile-menu-close-btn"
     type="button"
